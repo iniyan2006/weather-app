@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = My Application
+title = weather
 
 # (str) Package name
-package.name = myapp
+package.name = weather
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
@@ -46,10 +46,10 @@ requirements = python3,kivy,requests
 #garden_requirements =
 
 # (str) Presplash of the application
-presplash.filename = ../presplash.png
+#presplash.filename = ../presplash.png
 
 # (str) Icon of the application
-icon.filename = logo.png
+#icon.filename = logo.png
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = portrait
@@ -62,7 +62,7 @@ orientation = portrait
 #
 
 #
-author = © Copyright Info
+author = © Iniyan V 
 
 # change the major version of python used by the app
 osx.python_version = 3
