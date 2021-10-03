@@ -12,8 +12,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       -name: requests
-        run: |
-          pip install requests 
+      run: |
+        pip install requests 
 
 
       - name: Build with Buildozer
