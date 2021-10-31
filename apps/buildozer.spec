@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = weather
+title = dog
 
 # (str) Package name
-package.name = weather
+package.name = dog
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.test
+package.domain = dog.org 
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -22,7 +22,7 @@ source.include_exts = py,png,jpg,kv,atlas
 #source.exclude_exts = spec
 
 # (list) List of directory to exclude (let empty to not exclude anything)
-source.exclude_dirs = 
+#source.exclude_dirs = tests, bin
 
 # (list) List of exclusions using pattern matching
 #source.exclude_patterns = license,images/*/*.jpg
@@ -46,10 +46,10 @@ requirements = python3,kivy,requests
 #garden_requirements =
 
 # (str) Presplash of the application
-#presplash.filename = ../presplash.png
+#presplash.filename = %(source.dir)s/data/presplash.png
 
 # (str) Icon of the application
-#icon.filename = logo.png
+#icon.filename = %(source.dir)s/data/icon.png
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = portrait
@@ -62,7 +62,7 @@ orientation = portrait
 #
 
 #
-author = © Iniyan V 
+# author = © Copyright Info
 
 # change the major version of python used by the app
 osx.python_version = 3
