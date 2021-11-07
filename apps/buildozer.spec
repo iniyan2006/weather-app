@@ -7,7 +7,7 @@ title = weather
 package.name = weather
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.test
+package.domain = weather.org
 
 # (str) Source code where the main.py live
 source.dir = .
